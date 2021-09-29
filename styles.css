@@ -54,7 +54,8 @@ hr {
  
 }
 .list{
-  
+  max-width: 1000px;
+    margin : auto;
 }
 
 /** links **/
