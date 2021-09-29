@@ -16,23 +16,11 @@ body {
 hr {
   margin: 2rem 0rem;
 }
-/** margin **/
+
 .margin-md {
   margin-bottom: 3rem;
 }
-/** container **/
-/* .container {
-  display: block;
-  margin: auto;
-  padding-left: 2.5%;
-  //padding-right: 1rem;
-} */
 
-/* .container-center {
-  /* //max-width: 100%;
-   max-width: 1000px; 
-   margin: auto; 
-} */
    .container{
     padding: 0rem 1rem;
 
