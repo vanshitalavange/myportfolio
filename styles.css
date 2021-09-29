@@ -21,20 +21,40 @@ hr {
   margin-bottom: 3rem;
 }
 /** container **/
-.container {
+/* .container {
   display: block;
   margin: auto;
   padding-left: 2.5%;
   //padding-right: 1rem;
+} */
+
+/* .container-center {
+  /* //max-width: 100%;
+   max-width: 1000px; 
+   margin: auto; 
+} */
+   .container{
+    padding: 0rem 1rem;
+
+   }
+.container-center{
+    max-width: 1000px;
+    margin : auto;
 }
 
-.container-center {
-  //max-width: 100%;
-  /* max-width: 1000px; */
-  // margin: auto;
+.blog{
+  display: block;
+  margin: auto;
+  padding-left: 2.5%;
 }
-p {
-  //text-align: center;
+.projects{
+  display: block;
+  margin: auto;
+  padding-left: 2.5%;
+ 
+}
+.list{
+  
 }
 
 /** links **/
@@ -122,6 +142,9 @@ p {
 .ow {
   background-color: var(--lightgray-color);
   margin-bottom: 0rem;
+}
+.blog{ 
+max-width:80vw; display:block;margin:auto;
 }
 
 /** footer  **/
