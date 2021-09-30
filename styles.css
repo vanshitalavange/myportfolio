@@ -3,7 +3,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
-  width: 100%;
+  max-width:100%;
   display: block;
   margin: auto;
 }
@@ -50,15 +50,19 @@ hr {
 
 .link {
   border-radius: 0.5rem;
-  padding: 0.5rem 1rem;
+  /* padding: 0.5rem 1rem; */
+  padding-right:1.1rem;
+  
   text-decoration: none;
 }
 
 .link-primary {
   background-color: var(--primary-color);
   color: white;
+  padding: 0.5rem 1rem;
 }
 .link-secondary {
+  padding: 0.5rem 1rem;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
@@ -82,7 +86,7 @@ hr {
 }
 .navigation .nav-brand {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .navigation .nav-pills {
   text-align: right;
@@ -90,7 +94,7 @@ hr {
 
 .navigation .link {
   color: white;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .navigation .link-active {
   font-weight: bold;
