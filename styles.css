@@ -3,13 +3,13 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
-  min-width:600px;
+  min-width: 600px;
   max-width: 1000px;
   display: block;
   margin: auto;
 }
 :root {
-  --primary-color: #a78bfa;
+  --primary-color: #7c3aed;
   --gray-color: #6b7280;
   --lightgray-color: #e5e7eb;
 }
@@ -81,7 +81,7 @@ hr {
   color: white;
   padding: 1rem;
   border-bottom-left-radius: 1rem;
-  border-top-right-radius:0.5rem ;
+  border-top-right-radius: 0.5rem;
 }
 .navigation .nav-brand {
   font-weight: bold;
