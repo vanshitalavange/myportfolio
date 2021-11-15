@@ -9,7 +9,9 @@ body {
   margin: auto;
 }
 :root {
-  --primary-color: #7c3aed;
+  --primary-color: #6366F1
+
+  ;
   --gray-color: #6b7280;
   --lightgray-color: #e5e7eb;
 }
